@@ -26,9 +26,13 @@ public class FirstClass {
         System.out.println("x >= 7 = " + (x >= 7));  // true
         System.out.println("y <= 9 = " + (y <= 9));  // false
 
-        // 4) Переполнение int
-        int max = Integer.MAX_VALUE; // 2_147_483_647
-        System.out.println("MAX + 1 = " + (max + 1)); // -2147483648 (переполнение)
-        System.out.println("MAX * 2 = " + (max * 2)); // -2 (переполнение)
+        //переполнение при арифметической операции
+        float e = 3.4028235E38f;
+        float g = 3.4028235E38f;
+        System.out.println(e + g);
+
+        double h = 1.7976931348623157E308;
+        double j = 1.7976931348623157E308;
+        System.out.println(h + j);
     }
 }
