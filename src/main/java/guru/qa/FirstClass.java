@@ -9,7 +9,6 @@ public class FirstClass {
         System.out.println("10 - 3 = " + (a - b));
         System.out.println("10 * 3 = " + (a * b));
         System.out.println("10 / 3 = " + (a / b));
-        // целочисленное деление = 3
 
         // 1) Смешанные операции int + double
         int c = 5;
@@ -27,7 +26,7 @@ public class FirstClass {
         System.out.println("x >= 7 = " + (x >= 7));  // true
         System.out.println("y <= 9 = " + (y <= 9));  // false
 
-        // 4) Переполнение int (выход за пределы Integer.MAX_VALUE)
+        // 4) Переполнение int
         int max = Integer.MAX_VALUE; // 2_147_483_647
         System.out.println("MAX + 1 = " + (max + 1)); // -2147483648 (переполнение)
         System.out.println("MAX * 2 = " + (max * 2)); // -2 (переполнение)
